@@ -1,0 +1,65 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+p {
+  /*
+  border-right: 1px red solid;
+  border-left: 1px red solid;
+  border-bottom: 4px solid rgb(115,204,168);
+  */
+  height: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main {
+  min-height: 100vh;
+  color: rgb(219,232,212);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+  hsl(224deg 20% 23%) 2%,
+  hsl(224deg 20% 22%) 24%,
+  hsl(224deg 20% 22%) 31%,
+  hsl(224deg 20% 21%) 37%,
+  hsl(223deg 20% 21%) 41%,
+  hsl(223deg 20% 21%) 44%,
+  hsl(223deg 20% 20%) 47%,
+  hsl(223deg 20% 20%) 50%,
+  hsl(222deg 20% 20%) 52%,
+  hsl(222deg 20% 19%) 54%,
+  hsl(221deg 20% 19%) 56%,
+  hsl(221deg 20% 18%) 57%,
+  hsl(221deg 20% 18%) 59%,
+  hsl(221deg 20% 18%) 61%,
+  hsl(221deg 20% 18%) 63%,
+  hsl(221deg 20% 18%) 64%,
+  hsl(222deg 20% 18%) 66%,
+  hsl(222deg 20% 17%) 68%,
+  hsl(222deg 20% 17%) 71%,
+  hsl(222deg 20% 17%) 74%,
+  hsl(222deg 20% 17%) 78%,
+  hsl(222deg 20% 17%) 83%,
+  hsl(222deg 20% 17%) 99%
+  );
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
