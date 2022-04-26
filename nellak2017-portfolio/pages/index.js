@@ -7,6 +7,33 @@ import Showcase from '../components/showcase/showcase'
 import Footer from '../components/footer/footer'
 
 export default function Home() {
+  const links = [
+    {
+      href: "http://example.com",
+      img: "http://example.com/img",
+      text: "lorem ipsum"
+    },
+    {
+      href: "http://example.com",
+      img: "http://example.com/img",
+      text: "lorem ipsum"
+    },
+    {
+      href: "http://example.com",
+      img: "http://example.com/img",
+      text: "lorem ipsum"
+    },
+    {
+      href: "http://example.com",
+      img: "http://example.com/img",
+      text: "lorem ipsum"
+    },
+    {
+      href: "http://example.com",
+      img: "http://example.com/img",
+      text: "lorem ipsum"
+    }
+  ]
   return (
     <>
       <Head>
@@ -15,7 +42,22 @@ export default function Home() {
       <main>
         <Nav />
         <Intro></Intro>
-        <Showcase></Showcase>
+        <Showcase
+          title="Main Projects"
+          subtitle="The main projects that I am working on at the moment."
+          links={links} 
+          />
+          <Showcase
+          title="Tech Experience"
+          subtitle="These are the Technologies I am familiar with."
+          links={links} 
+          />
+          <Showcase
+          title="About"
+          subtitle="Here, you can learn a little bit about me."
+          links={links} 
+          />
+
         <Footer></Footer>
       </main>
     </>
