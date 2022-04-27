@@ -24,6 +24,8 @@ export const IntroHeading = styled.h1`
     text-transform: uppercase;
     font-size: min(9vw,6rem);
     
+    scroll-margin: 55px; // Used for the Scroll to section function in the nav and footer
+
     margin: .5rem 0 0 0;
 `;
 
