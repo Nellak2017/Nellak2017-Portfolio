@@ -6,15 +6,16 @@ import {
     IntroParagraph
 } from './intro.elements.js'
 import Logo from '../../public/Nellak2017-Logo.jpg'
-import {useRouter} from 'next/router'
+import { useRouter } from 'next/router'
 
 // Note: Since there is only 1 Intro element for the site, you may make it hard coded to save time
+// Note: #Main Heading is used in the Scroll to section feature
 const Intro = () => {
     const router = useRouter()
     return (
         <>
             <IntroContainer>
-                <IntroHeading>Connor Keenum</IntroHeading>
+                <IntroHeading id="#Main Heading">Connor Keenum</IntroHeading>
                 <IntroSubHeading>My Experiences as a Web Developer</IntroSubHeading>
                 <IntroImage
                     src={Logo}
