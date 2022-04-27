@@ -6,6 +6,13 @@ import Intro from '../components/intro/intro'
 import Showcase from '../components/showcase/showcase'
 import Footer from '../components/footer/footer'
 
+// @ todo: Add Real Content for the Tech Experience (Defer Main Projects until done with those)
+// @ todo: Add Real Content for About me 
+// @ todo: Change route to match /# when scrolled to that section
+// @ todo: Convert the imperative document.querySelector code to a useRefs solution. https://underbelly.is/writing-about/using-react-refs-to-manipulate-the-dom
+// @ todo: Make Resume page
+
+// @ todo: Host on Vercel (Defer doing this until done with Main Projects)
 export default function Home() {
   const links = [
     {
@@ -45,18 +52,18 @@ export default function Home() {
         <Showcase
           title="Main Projects"
           subtitle="The main projects that I am working on at the moment."
-          links={links} 
-          />
-          <Showcase
+          links={links}
+        />
+        <Showcase
           title="Tech Experience"
           subtitle="These are the Technologies I am familiar with."
-          links={links} 
-          />
-          <Showcase
+          links={links}
+        />
+        <Showcase
           title="About"
           subtitle="Here, you can learn a little bit about me."
-          links={links} 
-          />
+          links={links}
+        />
 
         <Footer></Footer>
       </main>
