@@ -11,11 +11,35 @@ const Nav = () => {
         <>
             <Navbar>
                 <NavbarContainer>
-                    <NavLink href="/">Home</NavLink>
-                    <NavLink href="/#Main Projects" forwardedAs="/#Main Projects">Main Projects</NavLink>
-                    <NavLink href="/#Tech Experience" forwardedAs="/#Tech Experience">Tech Experience</NavLink>
-                    <NavLink href="/#About" forwardedAs="/#About">About</NavLink>
-                    <NavLink href="/#Resume" forwardedAs="/#Resume">Resume</NavLink>
+                    <NavLink href="/">
+                        <span>
+                            <a onClick={() => document.getElementById('#Main Heading').scrollIntoView({ behavior: 'smooth' })}>
+                                Home
+                            </a>
+                        </span>
+                    </NavLink>
+                    <NavLink href="/#Main Projects">
+                        <span>
+                            <a onClick={() => document.getElementById('#Main Projects').scrollIntoView({ behavior: 'smooth' })}>
+                                Main Projects
+                            </a>
+                        </span>
+                    </NavLink>
+                    <NavLink href="/#Tech Experience" >
+                        <span>
+                            <a onClick={() => document.getElementById('#Tech Experience').scrollIntoView({ behavior: 'smooth' })}>
+                                Tech Experience
+                            </a>
+                        </span>
+                    </NavLink>
+                    <NavLink href="/#About">
+                        <span>
+                            <a onClick={() => document.getElementById('#About').scrollIntoView({ behavior: 'smooth' })}>
+                                About
+                            </a>
+                        </span>
+                    </NavLink>
+                    <NavLink href="/Resume" >Resume</NavLink>
                 </NavbarContainer>
             </Navbar>
         </>
