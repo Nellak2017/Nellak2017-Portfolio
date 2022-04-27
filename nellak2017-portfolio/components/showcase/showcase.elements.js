@@ -9,6 +9,8 @@ export const ShowcaseContainer = styled.section`
     align-items: center;
     row-gap: 1rem;
 
+    scroll-margin: 55px; // Used when I use the ScrollIntoView OnClick handler in the Nav
+
     margin-top: 10rem;
 `;
 
