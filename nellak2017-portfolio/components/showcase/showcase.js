@@ -7,25 +7,13 @@ import {
     ShowcaseLink,
     LinkText
 } from './showcase.elements.js'
-
 import Logo from '../../public/Nellak2017-Logo.jpg' // used as a dummy picture for dev
 
-/* 
-links = [
-    {
-        href: "http://example.com",
-        img: "http://example.com/img",
-        text: "lorem ipsum"
-    }, ...
-]
-*/
-
-// @ todo: Remove Dummy data and other extra stuff like border
-
+// I am selecting the Section by id to scroll to it. There may be better ways but I don't know them
 const Showcase = ({ title, subtitle, links }) => {
     return (
         <>
-            <ShowcaseContainer>
+            <ShowcaseContainer id={`#${title}`}>
                 <Title>
                     {title}
                 </Title>
@@ -35,9 +23,8 @@ const Showcase = ({ title, subtitle, links }) => {
                 <LinkContainer>
                     {links.map((link, index) => {
                         return (
-                            <ShowcaseLinkContainer>
+                            <ShowcaseLinkContainer key={`${title}_${index}`}>
                                 <ShowcaseLink 
-                                key={`${title}_${index}`} 
                                 href={link.href} 
                                 alt={title}
                                 style={{
