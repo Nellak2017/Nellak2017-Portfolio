@@ -63,6 +63,10 @@ export const NavbarContainer = styled.section`
         border-bottom: 4px solid rgb(115,204,168);
         color: rgb(115,204,168);
     }
+
+    & span{
+        height: 100%;
+    }
 `;
 
 export const NavLink = styled(Link)`
