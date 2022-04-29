@@ -35,10 +35,13 @@ export const IntroSubHeading = styled.h2`
 `;
 
 export const IntroImage = styled(image)`
+    transition: all 150ms ease-out 20ms;
     border-radius: 50%;
     &:hover{
         cursor: pointer;
+        border-radius: 35%;
     }
+    
 `;
 
 export const IntroParagraph = styled.p`
