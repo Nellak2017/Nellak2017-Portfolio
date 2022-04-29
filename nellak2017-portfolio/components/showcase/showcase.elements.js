@@ -49,8 +49,14 @@ export const LinkContainer = styled.section`
 `;
 
 export const ShowcaseLinkContainer = styled.span`
+    transition: all 100ms ease-out 20ms;
     position: relative;
     border-radius: 50%;
+    width: 160px;
+
+    &:hover{
+        width: 180px;
+    }
 `;
 
 export const ShowcaseLink = styled.a`
@@ -86,6 +92,7 @@ export const ShowcaseLink = styled.a`
 
 export const LinkText = styled.span`
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -100,5 +107,21 @@ export const LinkText = styled.span`
     width: 160px;
     z-index: 900;
 
-    
+`;
+
+export const ShowcaseParagraph = styled.span`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    row-gap: 1rem;
+    width: 25rem;
+
+    font-size: 1.2rem;
+    & * {
+        margin: 0;
+        padding: 0;
+    }
+
 `;
