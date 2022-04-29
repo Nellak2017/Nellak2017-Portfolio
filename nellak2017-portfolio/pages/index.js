@@ -22,11 +22,11 @@ import jest from '../public/jest.svg'
 import dynamo from '../public/dynamodb.svg'
 
 // @ todo: Add Real Content for the Tech Experience (Defer Main Projects until done with those)
-// @ todo: Add Real Content for About me 
 // @ todo: Change route to match /# when scrolled to that section
 // @ todo: Highlight the Nav elements based on the Route parameters
 // @ todo: Convert the imperative document.querySelector code to a useRefs solution. https://underbelly.is/writing-about/using-react-refs-to-manipulate-the-dom
 // @ todo: Make Resume page
+// @ todo: Change Website logo to match mine
 
 // @ todo: Host on Vercel (Defer doing this until done with Main Projects)
 export default function Home() {
