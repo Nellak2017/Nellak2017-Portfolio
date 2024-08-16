@@ -107,6 +107,11 @@ export const LinkText = styled.span`
     width: 160px;
     z-index: 900;
 
+    & b {
+        font-size: 1.25rem; 
+        font-weight: bold;
+    }
+
 `;
 
 export const ShowcaseParagraph = styled.span`

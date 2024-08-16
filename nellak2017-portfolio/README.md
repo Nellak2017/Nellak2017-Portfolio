@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Connor Keenum's Portfolio
+Welcome to my personal portfolio website! Here, you'll find an overview of my work, projects, and skills as a Web developer. This site showcases some of my best work and gives you insight into my professional journey.
 
-## Getting Started
+ <!-- Add a screenshot of your portfolio -->
 
-First, run the development server:
+## 🌟 About Me
+Hello! I'm Connor Keenum, a passionate Web developer with a strong focus on frontend development and functional programming. I love building efficient, scalable, and user-friendly applications that solve real-world problems.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* __Location:__ Edmond, Oklahoma
+* __Education:__ B.Sc. in Software Engineering
+* __Languages:__ JavaScript, Python, Go, ReScript
+* __Frameworks and Tech Stack:__ Next.js, React, Storybook, Styled-Components
+* __Interests:__ Property Based Testing, Functional Programming, Web Development, UI/UX Design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Projects
+### [Nutrisync](https://www.nutrisync.fit/)
+This is a website made for the Software Engineering degree Capstone class where I worked in a team of 5. This website is a nutrition website aimed at helping users track food and make meal plans. It passed in my Capstone class with a perfect 100% grade. It is also fully accessible and mobile friendly!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- This is a private Github repo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Status 
+- __Version 1 is complete__. 
+- Fully functional, but lacking many nice to have features such as many foods, profile pictures, and more.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### [PlanWeave](https://planweave.com/)
+This is a personal website that attempts to solve a problem I have, namely tracking and organizing tasks from anywhere even on the go. The goal is to have one set of tasks that have all the information, then several views to see the tasks in different contexts. For example, a calendar view to see scheduled tasks, or a linear todo view for the day to see what is up ahead of you.
 
-To learn more about Next.js, take a look at the following resources:
+- [Github repo](https://github.com/Nellak2017/plan-weave)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Status
+- __Version 1 is incomplete__.
+- Somewhat functional with the primary components made, but Critical UI bugs are known and being resolved.
+- Significantly more complex UI and client state than Nutrisync, so hard to test and release.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+### [Project 3 Name]
+[Brief Description]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- This is a private Github repo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Status
+
+## Explore all my projects here
+
+### 🔗 Links
+* Portfolio: [Portfolio](http://connorsprojects.com/)
+* GitHub: [GitHub Profile](https://github.com/Nellak2017)
+* LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/connor-keenum/)
+* Email: nellakprime@gmail.com
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+### 📫 Contact
+Feel free to reach out if you want to collaborate on a project, have any questions, or just want to say hello! You can contact me through email or any of the social media links above.
