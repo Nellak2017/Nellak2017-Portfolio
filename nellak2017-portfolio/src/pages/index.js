@@ -3,7 +3,7 @@ import Intro from '../components/intro/intro'
 import Showcase from '../components/showcase/showcase'
 import Footer from '../components/footer/footer'
 
-import { navLinks, intro, projects, experience, paragraphs, footer } from '../data/Index/Data.js'
+import { navLinks, intro, projects, techExperience, programmingExperience, paragraphs, footer } from '../data/Index/Data.js'
 
 // @ TODO: Add Real Content for the Tech Experience (Defer Main Projects until done with those)
 // @ TODO: Highlight the Nav elements based on the Route parameters and location on page
@@ -28,7 +28,12 @@ export default function Home() {
       <Showcase
         title="Tech Experience"
         subtitle="These are the Technologies I am familiar with."
-        links={experience}
+        links={techExperience}
+      />
+      <Showcase
+        title="Programming Language Experience"
+        subtitle="These are the programming languages that I know and like to use."
+        links={programmingExperience}
       />
       <Showcase
         title="About"

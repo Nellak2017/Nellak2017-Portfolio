@@ -5,14 +5,21 @@ import javascript from '../../../public/javascript.svg'
 import css from '../../../public/css3.svg'
 import python from '../../../public/python.svg'
 import next from '../../../public/next-js.svg'
-import java from '../../../public/java.svg'
 import git from '../../../public/git.svg'
+import github from '../../../public/github.png'
 import go from '../../../public/go.svg'
 import redux from '../../../public/redux.svg'
 import postgres from '../../../public/PostgreSQL_logo.svg'
-import ts from '../../../public/TS.svg'
 import jest from '../../../public/jest.svg'
-import dynamo from '../../../public/dynamodb.svg'
+import fastCheck from '../../../public/mug.svg'
+import rescript from '../../../public/rescript-brandmark.png'
+import docker from '../../../public/Docker_logo.webp'
+import nginx from '../../../public/nginx.svg'
+import aws from '../../../public/aws.png'
+import storybook from '../../../public/storybook.png'
+import figma from '../../../public/Figma.svg'
+import firebase from '../../../public/firebase.png'
+import githubActions from '../../../public/github-actions.svg'
 
 import PlanWeave from '../../../public/Plan-Weave-Logo-Square.png'
 import NutriSync from '../../../public/NutriSync-Logo-White-Background-Circle.webp'
@@ -87,106 +94,159 @@ export const projects = [
 	},
 	{
 		href: "http://example.com",
-		text: "lorem ipsum",
-		text2: "",
+		text: "LLM ChatBot",
+		text2: "LLM ChatBot clone for School project.",
 		logo: Logo,
-		alt: "logo"
+		alt: "LLM ChatBot App"
 	},
 ]
 
-export const experience = [
+export const techExperience = [
 	{
 		href: "https://www.w3.org/html/",
 		text: "HTML",
-		text2: "Intermediate Developer Level",
+		text2: "6 years experience",
 		logo: html,
-		alt: "html"
+		alt: "HTML"
 	},
 	{
 		href: "https://www.w3schools.com/css/",
 		text: "CSS",
-		text2: "Junior Developer Level",
+		text2: "6 years experience",
 		logo: css,
-		alt: "css"
+		alt: "CSS"
 	},
+	{
+		href: "https://git-scm.com/",
+		text: "Git",
+		text2: "5 years experience",
+		logo: git,
+		alt: "Git"
+	},
+	{
+		href: "https://github.com/Nellak2017",
+		text: "Github",
+		text2: "5 years experience",
+		logo: github,
+		alt: "Github"
+	},
+	{
+		href: "https://jestjs.io/",
+		text: "Jest",
+		text2: "4 years experience",
+		logo: jest,
+		alt: "Jest"
+	},
+	{
+		href: "https://nextjs.org/",
+		text: "Next",
+		text2: "3 years experience",
+		logo: next,
+		alt: "Next"
+	},
+	{
+		href: "https://storybook.js.org/",
+		text: "Storybook",
+		text2: "3 years experience",
+		logo: storybook,
+		alt: "Storybook"
+	},
+	{
+		href: "https://www.figma.com/",
+		text: "Figma",
+		text2: "3 years experience",
+		logo: figma,
+		alt: "Figma"
+	},
+	{
+		href: "https://redux.js.org/",
+		text: "Redux",
+		text2: "3 years experience",
+		logo: redux,
+		alt: "redux"
+	},
+	{
+		href: "https://firebase.google.com/",
+		text: "Firebase",
+		text2: "1 year experience",
+		logo: firebase,
+		alt: "Firebase"
+	},
+	{
+		href: "https://fast-check.dev/",
+		text: "Fast-Check",
+		text2: "6 months experience",
+		logo: fastCheck,
+		alt: "fast-check property based testing"
+	},
+	{
+		href: "https://www.postgresql.org/",
+		text: "Postgres",
+		text2: "3 months experience",
+		logo: postgres,
+		alt: "postgres"
+	},
+	{
+		href: "https://www.docker.com/",
+		text: "Github Actions",
+		text2: "1 month experience",
+		logo: githubActions,
+		alt: "Github Actions"
+	},
+	{
+		href: "https://www.docker.com/",
+		text: "Docker",
+		text2: "1 month experience",
+		logo: docker,
+		alt: "Docker"
+	},
+	{
+		href: "https://nginx.org/en/",
+		text: "Nginx",
+		text2: "1 month experience",
+		logo: nginx,
+		alt: "Nginx"
+	},
+	{
+		href: "https://aws.amazon.com/free/",
+		text: "AWS",
+		text2: "1 month experience",
+		logo: aws,
+		alt: "AWS"
+	},
+]
+
+export const programmingExperience = [
 	{
 		href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
 		text: "JS",
-		text2: "Junior Developer Level",
+		text2: "Very Fluent",
 		logo: javascript,
 		alt: "javascript"
 	},
 	{
 		href: "https://www.python.org",
 		text: "Python",
-		text2: "Junior Developer Level",
+		text2: "Fluent",
 		logo: python,
 		alt: "python"
 	},
 	{
-		href: "https://nextjs.org/",
-		text: "Next",
-		text2: "Advanced Beginner Level",
-		logo: next,
-		alt: "next"
-	},
-	{
-		href: "https://www.java.com/en/",
-		text: "Java",
-		text2: "Advanced Beginner Level",
-		logo: java,
-		alt: "java"
-	},
-	{
-		href: "https://git-scm.com/",
-		text: "Github",
-		text2: "Advanced Beginner Level",
-		logo: git,
-		alt: "git"
-	},
-	{
 		href: "https://go.dev/",
 		text: "Go",
-		text2: "Advanced Beginner Level",
+		text2: "Proficient",
 		logo: go,
 		alt: "go"
 	},
 	{
-		href: "https://redux.js.org/",
-		text: "Redux",
-		text2: "Advanced Beginner Level",
-		logo: redux,
-		alt: "redux"
+		href: "https://rescript-lang.org/",
+		text: "ReScript",
+		text2: "Beginner",
+		logo: rescript,
+		alt: "ReScript"
 	},
-	{
-		href: "https://www.postgresql.org/",
-		text: "Postgres",
-		text2: "Beginner Level",
-		logo: postgres,
-		alt: "postgres"
-	},
-	{
-		href: "https://www.typescriptlang.org/",
-		text: "TypeScript",
-		text2: "Beginner Level",
-		logo: ts,
-		alt: "ts"
-	},
-	{
-		href: "https://jestjs.io/",
-		text: "Jest",
-		text2: "Beginner Level",
-		logo: jest,
-		alt: "jest"
-	},
-	{
-		href: "https://aws.amazon.com/dynamodb/",
-		text: "DynamoDB",
-		text2: "Beginner Level",
-		logo: dynamo,
-		alt: "dynamodb"
-	}
 ]
+
 
 export const paragraphs = [
 	<h3 key='What can I do?'>What can I do?</h3>

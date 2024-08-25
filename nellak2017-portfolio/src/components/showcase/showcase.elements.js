@@ -10,8 +10,6 @@ export const ShowcaseContainer = styled.section`
     row-gap: 1rem;
 
     scroll-margin: 55px; // Used when I use the ScrollIntoView OnClick handler in the Nav
-
-    margin-top: 10rem;
 `;
 
 export const Title = styled.h1`
@@ -30,6 +28,7 @@ export const Subtitle = styled.h2`
     font-weight: 100;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    max-width: 60rem;
     width: 100%;
     padding: 0 10%;
 `;
