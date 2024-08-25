@@ -8,10 +8,14 @@ export const IntroContainer = styled.div`
     justify-content: center;
     align-items: center;
    
-    margin-top: clamp(0px,-17.0270rem + 43.2432vh, 150px);
+    //margin-top: clamp(0px,-17.0270rem + 43.2432vh, 150px);
 
     width: 100%;
     padding: 0 1rem;
+
+    a {
+        height: 160px;
+    }
 `;
 
 export const IntroHeading = styled.h1`
@@ -37,9 +41,13 @@ export const IntroSubHeading = styled.h2`
 export const IntroImage = styled(image)`
     transition: all 150ms ease-out 20ms;
     border-radius: 50%;
+    aspect-ratio: 1 / 1; /* Width is equal to height */
+    height: 100%;
+    width: auto;
     &:hover{
         cursor: pointer;
-        border-radius: 35%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect on hover */
+        height: 110%;
     }
     
 `;
@@ -53,7 +61,7 @@ export const IntroParagraph = styled.p`
     font-size: 1.2rem;
     text-align: justify;
     
-    @media screen and (max-width: 440px){
+    @media screen and (max-width: 476px){
         width: 100%;
     }
 `;

@@ -15,11 +15,11 @@ const Footer = ({ footer }) => {
         <FooterContainer>
             <LinkContainer>
                 {socialLinks?.map(el => (
-                    <li key={el?.href}><Link href={el?.href} passHref>{el?.icon || <MdOutlineError style={{background: 'black'}}/>}</Link></li>
+                    <li key={el?.href}><Link href={el?.href} aria-label={el?.href} passHref>{el?.icon || <MdOutlineError style={{background: 'black'}}/>}</Link></li>
                 ))}
             </LinkContainer>
             <Copyright>{`© ${new Date().getFullYear()} ${fullName}`}</Copyright>
-            <ScrollToTop><BsFillArrowUpCircleFill onClick={() => document.getElementById('#Main Heading').scrollIntoView({ behavior: 'smooth' })} /></ScrollToTop>
+            <ScrollToTop aria-label='Scroll-to-top'><BsFillArrowUpCircleFill onClick={() => document.getElementById('#Main Heading').scrollIntoView({ behavior: 'smooth' })} /></ScrollToTop>
         </FooterContainer>
     )
 }

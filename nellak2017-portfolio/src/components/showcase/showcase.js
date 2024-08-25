@@ -29,11 +29,11 @@ const Showcase = ({ title, subtitle, links, paragraph }) => {
                                     backgroundColor: "rgba(34,39,51,0.5)"
                                 }}
                             >
-                                <LinkText>
-                                    <b>{link.text}</b>
-                                    <p>{link.text2}</p>
-                                </LinkText>
                             </ShowcaseLink>
+                            <LinkText>
+                                <b>{link.text}</b>
+                                <p>{link.text2}</p>
+                            </LinkText>
                         </ShowcaseLinkContainer>
                     )
                 })}

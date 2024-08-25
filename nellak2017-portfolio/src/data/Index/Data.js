@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import Logo from '../../../public/Nellak2017-Logo.jpg'
 import html from '../../../public/html5.svg'
 import javascript from '../../../public/javascript.svg'
@@ -12,6 +13,10 @@ import postgres from '../../../public/PostgreSQL_logo.svg'
 import ts from '../../../public/TS.svg'
 import jest from '../../../public/jest.svg'
 import dynamo from '../../../public/dynamodb.svg'
+
+import PlanWeave from '../../../public/Plan-Weave-Logo-Square.png'
+import NutriSync from '../../../public/NutriSync-Logo-White-Background-Circle.webp'
+
 
 import { AiFillGithub } from 'react-icons/ai'
 import { FaFacebook } from 'react-icons/fa'
@@ -67,11 +72,18 @@ export const intro = {
 
 export const projects = [
 	{
-		href: "http://example.com",
-		text: "lorem ipsum",
-		text2: "",
-		logo: Logo,
-		alt: "logo"
+		href: "https://planweave.com/",
+		text: "Plan Weave",
+		text2: "Focus on what is important.",
+		logo: PlanWeave,
+		alt: "Plan Weave Logo"
+	},
+	{
+		href: "https://www.nutrisync.fit/",
+		text: "NutriSync",
+		text2: "Master your nutrition.",
+		logo: NutriSync,
+		alt: "NutriSync Logo"
 	},
 	{
 		href: "http://example.com",
@@ -80,27 +92,6 @@ export const projects = [
 		logo: Logo,
 		alt: "logo"
 	},
-	{
-		href: "http://example.com",
-		text: "lorem ipsum",
-		text2: "",
-		logo: Logo,
-		alt: "logo"
-	},
-	{
-		href: "http://example.com",
-		text: "lorem ipsum",
-		text2: "",
-		logo: Logo,
-		alt: "logo"
-	},
-	{
-		href: "http://example.com",
-		text: "lorem ipsum",
-		text2: "",
-		logo: Logo,
-		alt: "logo"
-	}
 ]
 
 export const experience = [
@@ -222,7 +213,6 @@ export const paragraphs = [
 	projects from start to finish. I use agile methodologies to keep projects on track, prioritize 
 	tasks, and ensure timely delivery.</li>
 ]
-
 
 export const footer = {
 	socialLinks: [

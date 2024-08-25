@@ -30,6 +30,8 @@ export const Subtitle = styled.h2`
     font-weight: 100;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    width: 100%;
+    padding: 0 10%;
 `;
 
 export const LinkContainer = styled.section`
@@ -49,20 +51,25 @@ export const LinkContainer = styled.section`
 `;
 
 export const ShowcaseLinkContainer = styled.span`
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+
     transition: all 100ms ease-out 20ms;
     position: relative;
     border-radius: 50%;
     width: 160px;
-
-    &:hover{
-        width: 180px;
-    }
+    height: 300px;
 `;
 
 export const ShowcaseLink = styled.a`
     position: relative;
     display: flex;
-    
+
+    aspect-ratio: 1 / 1; /* Width is equal to height */
+    height: 160px;
+    width: 160px;
+
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -74,11 +81,10 @@ export const ShowcaseLink = styled.a`
     background-size: cover;
     border-radius: 50%;
     color: #DBE8D4;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.15s ease;
+    transition: all 0.15s ease;
     &:before {
         content: "";
-        background-color: rgba(34,39,51,0.5);
         border-radius: 50%;
         width: 100%;
         height: 100%;
@@ -88,30 +94,51 @@ export const ShowcaseLink = styled.a`
         top: 0;
         left: 0;
     }
+    &:hover {
+        height: 176px;
+        width: 176px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow effect on hover */
+    }
 `;
 
 export const LinkText = styled.span`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
+
+    padding-top: 10px;
+
     position: relative;
-    
+    overflow: hidden;
 
     font-family: normal 100%/1.5 'Titillium Web', sans-serif;
     font-size: 1rem;
     font-weight: 600;
+    color: white;
 
-    height: 160px;
     width: 160px;
+    height: 140px; // Note: This is so it adds to 300px with the <a> above
+
     z-index: 900;
 
     & b {
+        width: 100%;
+        height: 30px; // Note: this is arbitrarily chosen. 140px = 30px + 110px
         font-size: 1.25rem; 
         font-weight: bold;
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
     }
 
+    & p {
+        margin: 0;
+        height: 110px; // Note: this is arbitrarily chosen. 140px = 30px + 110px
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
 `;
 
 export const ShowcaseParagraph = styled.span`
@@ -121,7 +148,12 @@ export const ShowcaseParagraph = styled.span`
     justify-content: center;
     text-align: left;
     row-gap: 1rem;
-    width: 25rem;
+    width: 28rem;
+
+    @media screen and (max-width: 476px) {
+        width: 100%;
+        padding: 0 10%;
+    }
 
     font-size: 1.2rem;
     & * {
