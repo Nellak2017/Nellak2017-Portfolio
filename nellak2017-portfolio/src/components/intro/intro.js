@@ -24,9 +24,9 @@ const Intro = ({ intro }) => {
                     placeholder={placeholder}
                 />
             </Link>
-            {introParagraphs?.map(el => (
-                <IntroParagraph key={`Introduction-Section-Paragraph-${String(el.slice(10))}`}>
-                    {String(el)}
+            {introParagraphs?.map((el, i) => (
+                <IntroParagraph key={`Introduction-Section-Paragraph-${i}`}>
+                    {el}
                 </IntroParagraph>
             ))}
         </IntroContainer>

@@ -52,14 +52,15 @@ export const IntroImage = styled(image)`
     
 `;
 
-export const IntroParagraph = styled.p`
+export const IntroParagraph = styled.span`
     margin: 0 auto;
     margin-top: 2rem;
 
-    width: 28rem;
+    max-width: 45rem;
+    width: 100%;
 
     font-size: 1.2rem;
-    text-align: justify;
+    text-align: start;
     
     @media screen and (max-width: 476px){
         width: 100%;

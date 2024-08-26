@@ -68,12 +68,11 @@ export const intro = {
 		onClickRoute: 'https://github.com/Nellak2017'
 	},
 	introParagraphs: [
-		`Hi there! I'm Connor Keenum, a passionate and driven software developer with a strong focus on creating 
-		elegant and efficient solutions. With a Bachelor's Degree in Software Engineering and years of hands-on 
-		experience, I've honed my skills in programming, web development, and strategic problem-solving.`,
-		`My journey in tech is fueled by a love for continuous learning and a deep interest in how software can transform 
-		ideas into reality. Whether I'm diving into complex algorithms or fine-tuning the user experience of a web 
-		app, I approach every challenge with enthusiasm and a dedication to excellence and quality assurance.`
+		<p key="Introduction-Section-Paragraph-1">&nbsp;&nbsp;&nbsp;&nbsp;Hello! I&apos;m Connor Keenum, a passionate Web developer with a strong focus on frontend development and functional programming. I love 
+		building efficient, scalable, and user-friendly applications that solve real-world problems.</p>,
+		<li key="Introduction-Section-Paragraph-2"><b>Location:</b>&nbsp;&nbsp;Edmond, Oklahoma</li>,
+		<li key="Introduction-Section-Paragraph-3"><b>Education:</b>&nbsp;&nbsp;B.Sc. in Software Engineering</li>,
+		<li key="Introduction-Section-Paragraph-4"><b>Interests:</b>&nbsp;&nbsp;Property Based Testing, Functional Programming, Web Development, UI/UX Design</li>,
 	]
 }
 
