@@ -51,8 +51,9 @@ export const navLinks = [
 		displayName: 'About'
 	},
 	{
-		href: '/Resume',
-		displayName: 'Resume'
+		href: "/Connor's%20Resume.pdf",
+		displayName: 'Resume',
+		target: '_blank',
 	},
 ]
 
@@ -91,13 +92,14 @@ export const projects = [
 		logo: NutriSync,
 		alt: "NutriSync Logo"
 	},
-	{
-		href: "http://example.com",
-		text: "LLM ChatBot",
-		text2: "LLM ChatBot clone for School project.",
-		logo: Logo,
-		alt: "LLM ChatBot App"
-	},
+	// TODO: Add LLM Chatbot site when ready
+	// {
+	// 	href: "http://example.com",
+	// 	text: "LLM ChatBot",
+	// 	text2: "LLM ChatBot clone for School project.",
+	// 	logo: Logo,
+	// 	alt: "LLM ChatBot App"
+	// },
 ]
 
 export const techExperience = [

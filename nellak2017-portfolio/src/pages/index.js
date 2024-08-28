@@ -8,7 +8,6 @@ import { navLinks, intro, projects, techExperience, programmingExperience, parag
 // @ TODO: Add Real Content for the Tech Experience (Defer Main Projects until done with those)
 // @ TODO: Highlight the Nav elements based on the Route parameters and location on page
 // @ TODO: Convert the imperative document.querySelector code to a useRefs solution. https://underbelly.is/writing-about/using-react-refs-to-manipulate-the-dom
-// @ TODO: Make Resume page
 
 // @ TODO: Host on Vercel (Defer doing this until done with Main Projects)
 export default function Home() {

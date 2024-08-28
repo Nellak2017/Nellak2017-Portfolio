@@ -15,6 +15,8 @@ const Nav = ({ links = [] }) => {
                         key={`NavLink-${i}-${el?.displayName || 'No display name'}`}
                         href={el?.href || '/'}
                         onClick={handleClick(el)}
+                        target={el?.target || ''}
+                        rel='noopener noreferrer'
                     >
                         {el?.displayName || 'No display name'}
                     </NavLink>
