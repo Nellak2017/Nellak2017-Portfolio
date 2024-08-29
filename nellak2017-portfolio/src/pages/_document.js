@@ -1,7 +1,7 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from "styled-components"
-import { BASE_PATH } from '../../src/data/constants.js'
+import { BASE_PATH } from '../data/constants.js'
 
 const logoString = `${BASE_PATH}/Nellak2017-Logo.jpg`
 
