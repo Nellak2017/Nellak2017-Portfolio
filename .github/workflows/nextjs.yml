@@ -80,14 +80,14 @@ jobs:
         run: ls -R nellak2017-portfolio/public
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
-        working-directory: nellak2017-portfolio
+        working-directory: ${{ github.workspace }}/nellak2017-portfolio
       - name: Build with Next.js
-        run: npx next build # ${{ steps.detect-package-manager.outputs.runner }} 
-        working-directory: nellak2017-portfolio
+        run: npm run build # ${{ steps.detect-package-manager.outputs.runner }} 
+        working-directory: ${{ github.workspace }}/nellak2017-portfolio
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: nellak2017-portfolio/dist
+          path: ${{ github.workspace }}/nellak2017-portfolio/dist
 
   # Deployment job
   deploy:
