@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export', // Deploy a Next.js App to GitHub Pages: https://www.youtube.com/watch?v=mJuz45RXeXY
   distDir: 'dist', // Deploy a Next.js App to GitHub Pages: https://www.youtube.com/watch?v=mJuz45RXeXY
+  basePath: process.env.NODE_ENV === 'production' ? '/Nellak2017-Portfolio' : '', // Otherwise it won't load images or fonts or media on page: https://github.com/vercel/next.js/discussions/62861
   reactStrictMode: true,
   images: {
     // cache optimized images for 60 seconds
