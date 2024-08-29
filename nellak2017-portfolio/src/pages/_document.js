@@ -1,8 +1,9 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from "styled-components"
-import { BASE_PATH } from '../data/constants.js'
+// import { BASE_PATH } from '../data/constants.js' // STUPID FILE NAMEING STUFF WON'T LET ME IN LINUX ENV
 
+const BASE_PATH = process.env.NODE_ENV === 'production' ? '/Nellak2017-Portfolio' : '' // Do this because the github actions suck
 const logoString = `${BASE_PATH}/Nellak2017-Logo.jpg`
 
 class MyDocument extends Document {
