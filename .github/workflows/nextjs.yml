@@ -76,6 +76,8 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: list directory
         run: ls nellak2017-portfolio
+      - name: List public directory
+        run: ls -R nellak2017-portfolio/public
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
         working-directory: nellak2017-portfolio
