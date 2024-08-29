@@ -1,0 +1,1 @@
+export const BASE_PATH = process.env.NODE_ENV === 'production' ? '/Nellak2017-Portfolio' : ''

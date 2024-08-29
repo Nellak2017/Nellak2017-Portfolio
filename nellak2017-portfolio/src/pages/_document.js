@@ -1,6 +1,9 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from "styled-components"
+import { BASE_PATH } from '../../src/data/constants.js'
+
+const logoString = `${BASE_PATH}/Nellak2017-Logo.jpg`
 
 class MyDocument extends Document {
     // Used to eliminate a FOUC, where FOUC is a Flash of Unstyled Content, caused by styled components
@@ -22,7 +25,7 @@ class MyDocument extends Document {
             <Html lang='en'>
                 <Head>
                     {/*Icon*/}
-                    <link rel="icon" href="/Nellak2017-Logo.jpg" width='20px' height='27px' />
+                    <link rel="icon" href={logoString} width='20px' height='27px' />
 
                     {/*Fonts*/}
                     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet" />
@@ -30,14 +33,14 @@ class MyDocument extends Document {
 
                     {/*Facebook meta tags*/}
                     <meta property="og:url" content="/" />
-                    <meta property="og:image" content="/Nellak2017-Logo.jpg" />
+                    <meta property="og:image" content={logoString} />
                     <meta property="og:title" content="Connor Keenum's Portfolio" />
                     <meta property="og:type" content="website" />
                     <meta property="og:locale" content="en_US" />
                     <meta property="og:description" content="Explore Connor Keenum's professional portfolio showcasing software development projects, skills, and experience." />
 
                     {/*Twitter meta tags*/}
-                    <meta property="twitter:image" content="/Nellak2017-Logo.jpg" />
+                    <meta property="twitter:image" content={logoString} />
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:title" content="Connor Keenum's Portfolio" />
                     <meta property="twitter:description" content="Explore Connor Keenum's professional portfolio showcasing software development projects, skills, and experience."></meta>
