@@ -22,7 +22,7 @@ import firebase from '../../../public/firebase.png'
 import githubActions from '../../../public/github-actions.svg'
 
 import PlanWeave from '../../../public/Plan-Weave-Logo-Square.png'
-import NutriSync from '../../../public/NutriSync-Logo-White-Background-Circle.webp'
+import NutriSync from '../../../public/NutriSync-Logo.webp'
 
 
 import { AiFillGithub } from 'react-icons/ai'
