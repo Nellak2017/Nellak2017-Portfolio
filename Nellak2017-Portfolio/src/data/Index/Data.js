@@ -21,6 +21,7 @@ import figma from '../../../public/Figma.svg'
 import firebase from '../../../public/firebase.png'
 import githubActions from '../../../public/github-actions.svg'
 
+import Freelance from '../../../public/Freelance-Sample-Logo-94-by-94.png'
 import PlanWeave from '../../../public/Plan-Weave-Logo-Square.png'
 import NutriSync from '../../../public/Nutrisync-Logo.webp'
 
@@ -50,11 +51,11 @@ export const navLinks = [
 		heading: '#About',
 		displayName: 'About'
 	},
-	{
-		href: "/Connor's%20Resume.pdf",
-		displayName: 'Resume',
-		target: '_blank',
-	},
+	// {
+	// 	href: "/Connor's%20Resume.pdf",
+	// 	displayName: 'Resume',
+	// 	target: '_blank',
+	// },
 ]
 
 export const intro = {
@@ -69,15 +70,22 @@ export const intro = {
 		onClickRoute: 'https://github.com/Nellak2017'
 	},
 	introParagraphs: [
-		<p key="Introduction-Section-Paragraph-1">&nbsp;&nbsp;&nbsp;&nbsp;Hello! I&apos;m Connor Keenum, a passionate Web developer with a strong focus on frontend development and functional programming. I love 
+		<p key="Introduction-Section-Paragraph-1">&nbsp;&nbsp;&nbsp;&nbsp;Hello! I&apos;m Connor Keenum, a passionate Web developer with a strong focus on frontend development and full-stack integration. I love 
 		building efficient, scalable, and user-friendly applications that solve real-world problems.</p>,
-		<li key="Introduction-Section-Paragraph-2"><b>Location:</b>&nbsp;&nbsp;Edmond, Oklahoma</li>,
+		// <li key="Introduction-Section-Paragraph-2"><b>Location:</b>&nbsp;&nbsp;Edmond, Oklahoma</li>,
 		<li key="Introduction-Section-Paragraph-3"><b>Education:</b>&nbsp;&nbsp;B.Sc. in Software Engineering</li>,
-		<li key="Introduction-Section-Paragraph-4"><b>Interests:</b>&nbsp;&nbsp;Property Based Testing, Functional Programming, Web Development, UI/UX Design</li>,
+		<li key="Introduction-Section-Paragraph-4"><b>Interests:</b>&nbsp;&nbsp;UI/UX Responsive design, Web Development, MUI, Full-Stack Integration</li>,
 	]
 }
 
 export const projects = [
+	{
+		href: "https://www.connorkeenum.dev/",
+		text: "Work Samples",
+		text2: "Showcasing My Skills.",
+		logo: Freelance,
+		alt: "Front End Samples Logo"
+	},
 	{
 		href: "https://planweave.com/",
 		text: "Plan Weave",
